@@ -23,7 +23,6 @@ try {
    JSONObject myresponse = new JSONObject(response.toString());
    System.out.println(myresponse);
    System.out.println("username -" + myresponse.getString("username"));
-
   } catch(Exception e) {
     System.out.println(e);
   }
